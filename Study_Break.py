@@ -15,7 +15,7 @@ def take_break():
     counter = 0
     while counter < total_breaks:
         time.sleep(int(user_input_time))
-        webbrowser.open('https://www.youtube.com/watch?v=RPNG99Q2rNU')
+        webbrowser.open('https://www.youtube.com/watch?v=CQ8ZHilxdm8')
         counter += 1
 
 def get_current_time():

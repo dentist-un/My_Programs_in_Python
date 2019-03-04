@@ -11,11 +11,12 @@ import webbrowser
 def take_break():
     user_input = input('Enter the number of breaks you want to take: ')
     user_input_time = input('Please enter the time in SECONDS: ')
+    video_to_play = input('Paste the YouTube Video Link:')
     total_breaks = int(user_input)
     counter = 0
     while counter < total_breaks:
         time.sleep(int(user_input_time))
-        webbrowser.open('https://www.youtube.com/watch?v=CQ8ZHilxdm8')
+        webbrowser.open(video_to_play)
         counter += 1
 
 def get_current_time():
